@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.Top table{
+	width:100%;
+position:relative;
+border-collapse:collapse;
+	}
+
+.Top tr td{
+	background-color:#1b1464;
+		padding-left:20px;
+		paDDING-RIGHT:20px;
+		color:white;
+    font-family: "Comic Sans MS", cursive;
+
+	text-decoration:none;
+	text-emphasis:none;
+	color:white;
+	}
+	.Top tr td a{
+    text-decoration:none;
+	text-emphasis:none;
+	color:white;
+	}
+		
+.tab table{
+	background-color:#1b1464;
+                color:white;
+               
+	
+
+}
+.tab table tr td a{
+text-decoration:none;
+text-emphasis:none;
+}
+#form{
+background-image:url("images/robo_arm.jpg");
+background-size: 100% 100%;
+background-image:url("images/sphere.jpg");
+color:blue;
+}
+#form a{
+color:wheat;
+}
+
+.t1{
+       background-image:url("images/robo_arm.jpg");
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    animation-name: transition;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    background-size: 100% 100%;
+	
+  
+      
+}
+@keyframes transition{
+    0% {background-image:url("images/robo_arm.jpg");transform:}
+    25% {background-image:url("images/finger.jpg");transform:}
+    50%{background-image:url("images/sphere.jpg");transform:}
+    75% {background-image:url("images/download.jpg");transform:}
+    100% {background-image: url("images/internship.jpg");transform:;}
+}
+.reviews{
+       background-image:url("images/reviews/ranareview.jpg");
+    -webkit-animation-name: selfdabba; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 50s; /* Safari 4.0 - 8.0 */
+    animation-name: selfdabba;
+    animation-duration: 30s;
+    animation-iteration-count:infinite;
+    background-size: 100% 100%;      
+}
+
+@keyframes selfdabba{
+    0%{background-image:url("images/reviews/ranareview.jpg");}
+    25% {background-image:url("images/reviews/dambani.jpg");transform:scaleZ(1);}
+    50%{background-image:url("images/reviews/muskreview.jpg");transform:scaleZ(-1)}
+    75% {background-image:url("images/reviews/thalaiva.jpg");transform:scaleZ(1)}
+    100% {background-image: url("images/reviews/cheli.jpg");transform:scaleZ(-1)}
+}
+                                
+.star{
+    position: relative;
+    -webkit-animation-name: moving; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: moving;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    float:left;
+}
+                        
+@keyframes moving {
+    0%   { left:0%; top:0px;ransform: scaleX(1)}
+    25%  { left:45%; top:0px;transform: scaleX(-1)}
+    50%  { left:80%;transform: scaleX(1);transform: scaleZ(-1);}
+    75%  { left:45%;transform: scaleX(1)}
+    100% { left:0%; top:0px;transform: scaleX(-1);transform:scaleZ(-1)}
+}
+.box1{
+     
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    animation-name: box;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    background-size: 100% 100%;
+   padding:20px;
+   color:white;
+font-family: "Comic Sans MS", cursive;
+ }
+@keyframes box {
+    0%   { left:0%; top:0px;transform: scaleX(-1)}
+    25%  { left:45%; top:0px;transform: scaleX(1)}
+    50%  { left:80%;transform: scaleX(-1);}
+    75%  { left:45%;transform: scaleX(1)}
+    100% { left:0%; top:0px;transform: scaleX(-1);}
+}
+
+
+}
+.dropbtn {
+ background-color:#1b1464;
+        color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+font-family: "Comic Sans MS", cursive;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+       min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+color:white;
+}
+
+.dropdown-content a {
+        padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color:white
+}
+
+.dropdown-content a:hover {background-color:#1b1464 ;color:white;}
+
+.dropdown:hover .dropdown-content {display: block;color:white;background-color:#1b1464}
+
+.dropdown:hover .dropbtn {background-color: #1b1464;color:white;background-color:#1b1464;display: block}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50%;
+	
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 4px 2px 0 rgba(0,0,0,0.2);
+}
+
+.img {
+    border-radius: 10px 10px 0 0;
+}
+
+.container {
+ padding:1px;
+}
